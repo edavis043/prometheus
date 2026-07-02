@@ -4,11 +4,11 @@ app:
     notify: appzdev@cloudbourne.com
 
 build:
-    version: 2.54
+    version: 2.17
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: prometheus-2.54
+    image_template: prometheus-2.17
 
 deploy:
     context: edavis043/DEV
